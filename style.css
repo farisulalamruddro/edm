@@ -1,0 +1,409 @@
+/*-----------Global Styles Starts-----------*/
+
+html, body{
+	background: #e1e1e1;
+	width: 100%;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+h2{
+  margin: 0px;
+  font-size: 44px;
+  line-height: 54px;
+  font-weight: 500;
+}
+
+p{
+	margin: 0px;
+  	font-size: 24px;
+  	line-height: 28px;
+  	font-weight: 400;
+
+}
+
+a{
+	margin: 0px;
+  	font-size: 24px;
+  	line-height: 28px;
+  	font-weight: 800;
+  	text-decoration: none;
+}
+
+.container{
+	max-width: 1280px;
+	padding: 60px 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.columns{
+	position: relative;
+}
+
+
+/* HERO SECTION STARTS */
+
+.hero{
+	width: 100%;
+	height: auto;
+
+}
+/* HERO SECTION ENDS*/
+
+
+/* SQUADRON SECTION STARTS*/
+.squadron{
+	margin-top: -5px;
+	background: #002855;
+}
+
+.squadron_columns{
+	column-count: 2;
+	column-gap: 40px;
+}
+
+
+@media only screen and (max-width: 928px) {
+
+.squadron_columns{
+	column-count: 1;
+}
+
+.squadron_columns .column1{
+	margin-bottom: 32px;
+}
+
+
+}
+
+
+
+/* SQUADRON SECTION ENDS */
+
+
+/* RAAF BASE POINT COOK STARTS */
+
+.raaf_base{
+
+	background: rgb(251,139,50);
+	background: linear-gradient(0deg, rgba(251,139,50,1) 50%, rgba(9,9,121,0) 50%);
+}
+
+
+
+.raaf_base_columns{
+
+		display: flex;	
+		vertical-align: center;	
+		column-gap: 40px;
+
+}
+
+.raaf_base_columns .column1.columns{
+	width: 45%;
+	min-height: 377px;
+	background: url(images/black-.png);
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  background-position: right;
+}
+
+.raaf_base_columns .column2.columns{
+	width: 20%;
+	min-height: 377px;
+	background: url(images/dial.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.raaf_base_columns .column3.columns{
+	width: 35%;
+	min-height: 377px;
+	background: url(images/caseback.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+.raaf_base_columns .column3.columns > div{
+	position: absolute;
+	bottom: 0;
+}
+
+
+
+
+.raaf_base_title{
+	color: #002855;
+  font-weight: 800;
+  text-align: right;
+  width: fit-content;
+  position: absolute;
+  top: 80px;
+  letter-spacing: -3px;
+}
+
+
+
+@media only screen and (max-width: 928px){
+
+
+.raaf_base_columns{
+
+		display: block;	
+
+}
+
+
+
+.raaf_base_columns .column1.columns{
+	width: 80%;
+	min-height: 377px;
+	background: url(images/black-.png);
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  background-position: right;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+}
+
+.raaf_base_columns .column2.columns{
+	width: 50%;
+	min-height: 377px;
+	background: url(images/dial.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+}
+
+.raaf_base_columns .column3.columns{
+	width: 80%;
+	min-height: 377px;
+	background: url(images/caseback.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 500px){
+
+
+.raaf_base_columns{
+
+		display: block;	
+
+}
+
+.raaf_base_columns .column1.columns{
+	width: 100%;
+	min-height: 377px;
+	background: url(images/black-.png);
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  background-position: right;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+}
+
+.raaf_base_columns .column2.columns{
+	width: 100%;
+	min-height: 377px;
+	background: url(images/dial.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+}
+
+.raaf_base_columns .column3.columns{
+	width: 100%;
+	min-height: 377px;
+	background: url(images/caseback.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.raaf_base_title{
+	color: #002855;
+  font-weight: 800;
+  text-align: right;
+  width: fit-content;
+  position: absolute;
+  top: 80px;
+  letter-spacing: -3px;
+  font-size: 32px;
+}
+
+
+
+
+
+}
+
+/* RAAF BASE POINT COOK ENDS */
+
+
+/* A21-001 COOK STARTS */
+.hornet{
+	display: flex;
+	column-gap: 40px;
+}
+
+.hornet .column1{
+	width: 75%;
+}
+
+.hornet .column2{
+	width: 25%;
+}
+
+@media only screen and (max-width: 928px){
+
+.hornet{
+	display: block;
+}
+
+.hornet .column1{
+	width: 100%;
+	margin-bottom: 32px;
+}
+
+.hornet .column2{
+	width: 100%;
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 500px){
+
+.hornet .column2 > h2{
+  font-size: 32px;
+	line-height: 42px;
+}
+
+
+}
+
+
+
+
+
+/* A21-001 COOK ENDS */
+
+
+
+/* footer starts */
+
+.footer{
+	background: #75787b;
+}
+
+.footer_container{
+	max-width: 880px;
+	padding: 60px 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.footer_columns{
+	display: flex;
+	column-gap: 40px;
+
+}
+
+.footer_columns .column1{
+	width: 50%;
+		text-align: end;
+}
+
+.footer_columns .column1 a{
+	color: #fb8b32;
+	margin: 0px;
+  font-size: 44px;
+  line-height: 54px;
+  font-weight: 500;
+}
+
+
+.footer_columns .column2{
+	width: 50%;
+}
+
+
+
+@media only screen and (max-width: 928px){
+ 
+.footer_columns{
+	display: block;
+
+}
+
+.footer_columns .column1{
+	width: 60%;
+	text-align: end;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 32px;
+}
+
+.footer_columns .column2{
+	width: 60%;
+	  margin-left: auto;
+  margin-right: auto;
+}
+
+
+}
+
+
+@media only screen and (max-width: 500px){
+
+.footer_columns .column1{
+	width: 100%;
+	text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 32px;
+}
+
+
+.footer_columns .column1 > h2{
+	font-size: 32px;
+	line-height: 42px;
+}
+
+.footer_columns .column1 > a{
+	font-size: 32px;
+	line-height: 42px;
+}
+
+
+
+}
+
+
+
+/* footer ends */
